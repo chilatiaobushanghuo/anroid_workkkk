@@ -1,0 +1,139 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "CC的奇妙app"
+			}
+		}
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/xuexiao/xuexiao",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/zhishi/zhishi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/ziyuan/ziyuan",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/daojishi/daojishi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/denglu/denglu",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/kaoyan/kaoyan",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/d1/d1",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/d2/d2",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/d3/d3",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/z1/z1",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/z2/z2",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/z3/z3",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/z4/z4",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/z5/z5",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/z6/z6",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/xuexiaozhuye/x1/x1",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/xuexiaozhuye/x2/x2",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/xuexiaozhuye/x3/x3",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/xuexiaozhuye/x4/x4",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/xuexiaozhuye/x5/x5",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goushu/g1/g1",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goushu/g2/g2",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goushu/g3/g3",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goushu/g4/g4",
+            "style" : {}
+        }
+    ],
+			"tabBar": {
+			    "color": "#7A7E83",
+			    "selectedColor": "#3cc51f",
+			    "borderStyle": "black",
+			    "backgroundColor": "#ffffff",
+			    "list": [{
+			        "pagePath": "pages/index/index",
+			        "iconPath": "./static/index.png",
+			        "selectedIconPath": "static/index_selected.png",
+			        "text": "首页"
+			    },{
+			        "pagePath": "pages/daojishi/daojishi",
+			        "iconPath": "./static/nvli.png",
+			        "selectedIconPath": "static/nuli.png",
+			        "text": "修仙之路"
+			    },
+				{
+				    "pagePath": "pages/mine/mine",
+				    "iconPath": "static/money.png",
+				    "selectedIconPath": "static/money_selected.png",
+				    "text": "君子之交"
+				}]
+			},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
